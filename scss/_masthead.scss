@@ -1,0 +1,28 @@
+header.masthead {
+  position: relative;
+  @include background-cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  .overlay {
+    position: absolute;
+    background-color: $gray-900;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  .slogan-primary {
+    color: $gray-100;
+  }
+  .slogan-secondary {
+    color: $gray-500;
+  }
+  @media (min-width: 768px) {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

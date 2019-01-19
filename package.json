@@ -1,0 +1,34 @@
+{
+    "title": "Landing Page",
+    "name": "landing-page",
+    "version": "1.0.0",
+    "description": "Landing page for Halo built with Bootstrap",
+    "keywords": [
+        "video",
+        "html"
+    ],
+    "homepage": "https://deployhalo.com",
+    "license": "ISC",
+    "author": "Autumn Voyage",
+    "contributors": [
+        "Alexander Nicholi (http://nicholatian.com/)",
+        "Rune Knytling (http://rune.co.de/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/autumnvoyage/landing-page"
+    },
+    "dependencies": {
+        "jquery": "3.3.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2"
+    }
+}

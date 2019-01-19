@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.1 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #1C1A22;
+}
+
+.btn {
+  background-color: #8243DB;
+  color: #f8f9fa;
+  border-radius: 15px 0px 15px 15px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 2rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.icon-halo {
+  font-size: 12.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead .slogan-primary {
+  color: #f8f9fa;
+}
+
+header.masthead .slogan-secondary {
+  color: #adb5bd;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase {
+  color: #adb5bd;
+  background-color: #2D2A34;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 10rem;
+  background-size: cover;
+  font-size: 5rem;
+  padding: 3rem;
+}
+
+@media (min-width: 1000px) {
+  .showcase .showcase-img {
+    font-size: 12.5rem;
+    padding: 8rem;
+  }
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
