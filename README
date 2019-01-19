@@ -1,1 +1,3 @@
 This is a landing page for <https://deployhalo.com/>.
+
+To get a dev server, run `gulp dev` and navigate to localhost:3000.
